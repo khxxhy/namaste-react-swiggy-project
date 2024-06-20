@@ -2971,9 +2971,27 @@ const jsxheading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     lineNumber: 10,
     columnNumber: 20
 }, undefined);
-console.log(jsxheading);
-const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxheading);
+console.log(jsxheading); // const root = ReactDOM.createRoot(document.getElementById("root"));
+ // root.render(jsxheading);
+ // onst parent = React.createElement(
+ //     "div",
+ //     { id: "parent" },
+ //     React.createElement("div", { id: "child" }, [
+ //       React.createElement("h1", {}, "this is namaste react practice🚀"),
+ //       React.createElement("h2", {}, "I'm an h2 tag"),
+ //     ]),
+ //     React.createElement("div", { id: "child2" }, [
+ //       React.createElement("h1", {}, "I'm an h1 tag"),
+ //       React.createElement("h2", {}, "I'm an h2 tag"),
+ //     ])
+ //   );
+ //   const heading = React.createElement(
+ //     "h1",
+ //     { id: "heading", xyz: "abc" },
+ //     "Hello from React"
+ //   );
+ //   const root = ReactDOM.createRoot(document.getElementById("root"));
+ //   root.render(parent);
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
