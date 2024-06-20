@@ -2957,23 +2957,81 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-//react element
-const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "heading"
-}, "namaste react\uD83E\uDD8B");
-console.log(heading);
-//jsx
-const jsxheading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+// react element
+// const heading = React.createElement("h1", { id: "heading" }, "namaste react🦋");
+// console.log(heading);
+//React Element
+const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
-    children: "namaste react\uD83E\uDD8B using jsx"
+    tabIndex: "5",
+    children: "this is a react element \uD83E\uDD8B"
 }, void 0, false, {
     fileName: "app.js",
     lineNumber: 10,
-    columnNumber: 20
+    columnNumber: 3
 }, undefined);
-console.log(jsxheading); // const root = ReactDOM.createRoot(document.getElementById("root"));
- // root.render(jsxheading);
- // onst parent = React.createElement(
+//React Functional Component
+const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 18,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: number
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 19,
+                columnNumber: 5
+            }, undefined),
+            heading,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "heading",
+                children: "This is a react functional component \uD83E\uDD8B"
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 21,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "app.js",
+        lineNumber: 17,
+        columnNumber: 3
+    }, undefined);
+_c = HeadingComponent;
+// can also be written in this syntax (in a single line) ->
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            " ",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "heading",
+                children: " This is a react component \uD83E\uDD8B"
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 26,
+                columnNumber: 42
+            }, undefined),
+            " "
+        ]
+    }, void 0, true, {
+        fileName: "app.js",
+        lineNumber: 26,
+        columnNumber: 21
+    }, undefined);
+_c1 = Title;
+const number = 10000;
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+root.render(heading); //redering an element
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "app.js",
+    lineNumber: 34,
+    columnNumber: 13
+}, undefined)); //rendering a component
+ //const parent = React.createElement(
  //     "div",
  //     { id: "parent" },
  //     React.createElement("div", { id: "child" }, [
@@ -2992,6 +3050,9 @@ console.log(jsxheading); // const root = ReactDOM.createRoot(document.getElement
  //   );
  //   const root = ReactDOM.createRoot(document.getElementById("root"));
  //   root.render(parent);
+var _c, _c1;
+$RefreshReg$(_c, "HeadingComponent");
+$RefreshReg$(_c1, "Title");
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
