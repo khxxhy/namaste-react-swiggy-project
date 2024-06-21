@@ -2957,109 +2957,109 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-// react element
-// const heading = React.createElement("h1", { id: "heading" }, "namaste react🦋");
-// console.log(heading);
-//React Element
-const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    id: "heading",
-    tabIndex: "5",
-    children: "this is a react element \uD83E\uDD8B"
-}, void 0, false, {
-    fileName: "app.js",
-    lineNumber: 10,
-    columnNumber: 3
-}, undefined);
-//React Functional Component
-const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        id: "container",
+var _myNewDesignPng = require("./assests/My new design.png");
+var _myNewDesignPngDefault = parcelHelpers.interopDefault(_myNewDesignPng);
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 18,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: number
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "logo",
+                    src: (0, _myNewDesignPngDefault.default)
+                }, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 19,
-                columnNumber: 5
+                lineNumber: 7,
+                columnNumber: 7
             }, undefined),
-            heading,
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "heading",
-                children: "This is a react functional component \uD83E\uDD8B"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-items",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "About Us"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Contact Us"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "app.js",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 21,
-                columnNumber: 5
+                lineNumber: 10,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 17,
-        columnNumber: 3
+        lineNumber: 6,
+        columnNumber: 5
     }, undefined);
-_c = HeadingComponent;
-// can also be written in this syntax (in a single line) ->
-const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        id: "container",
-        children: [
-            " ",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "heading",
-                children: " This is a react component \uD83E\uDD8B"
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 26,
-                columnNumber: 42
-            }, undefined),
-            " "
-        ]
-    }, void 0, true, {
+};
+_c = Header;
+const AppLayout = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "app",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
+            fileName: "app.js",
+            lineNumber: 25,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 26,
-        columnNumber: 21
+        lineNumber: 24,
+        columnNumber: 5
     }, undefined);
-_c1 = Title;
-const number = 10000;
+};
+_c1 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(heading); //redering an element
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 34,
+    lineNumber: 31,
     columnNumber: 13
-}, undefined)); //rendering a component
- //const parent = React.createElement(
- //     "div",
- //     { id: "parent" },
- //     React.createElement("div", { id: "child" }, [
- //       React.createElement("h1", {}, "this is namaste react practice🚀"),
- //       React.createElement("h2", {}, "I'm an h2 tag"),
- //     ]),
- //     React.createElement("div", { id: "child2" }, [
- //       React.createElement("h1", {}, "I'm an h1 tag"),
- //       React.createElement("h2", {}, "I'm an h2 tag"),
- //     ])
- //   );
- //   const heading = React.createElement(
- //     "h1",
- //     { id: "heading", xyz: "abc" },
- //     "Hello from React"
- //   );
- //   const root = ReactDOM.createRoot(document.getElementById("root"));
- //   root.render(parent);
+}, undefined));
 var _c, _c1;
-$RefreshReg$(_c, "HeadingComponent");
-$RefreshReg$(_c1, "Title");
+$RefreshReg$(_c, "Header");
+$RefreshReg$(_c1, "AppLayout");
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-dom/client":"lOjBx","react/jsx-dev-runtime":"iTorj"}],"21dqq":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-dom/client":"lOjBx","react/jsx-dev-runtime":"iTorj","./assests/My new design.png":"czgVR"}],"21dqq":[function(require,module,exports) {
 "use strict";
 module.exports = require("a569817e6ea559f6");
 
@@ -27470,6 +27470,44 @@ module.exports = require("ee51401569654d91");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"58362d9d82be395f":"21dqq"}]},["hPIHA","1xC6H","igcvL"], "igcvL", "parcelRequiref158")
+},{"58362d9d82be395f":"21dqq"}],"czgVR":[function(require,module,exports) {
+module.exports = require("4654a7fd04c8f64").getBundleURL("1G2bZ") + "My new design.1d0e05cd.png" + "?" + Date.now();
+
+},{"4654a7fd04c8f64":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}]},["hPIHA","1xC6H","igcvL"], "igcvL", "parcelRequiref158")
 
 //# sourceMappingURL=index.5baa4167.js.map
