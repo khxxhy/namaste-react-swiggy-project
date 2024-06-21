@@ -9,6 +9,7 @@ const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
+          <li>Search</li>
           <li>Home</li>
           <li>About Us</li>
           <li>Contact Us</li>
@@ -26,7 +27,7 @@ const RestaurantCard = () => {
       alt="res-logo"
       src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ajwonvkychxzkbvyq8dv">
     </img>
-    <h3>Kishori</h3>
+    <h3>Kishoriiiiiiiiiiiiiiii</h3>
   </div>
   );
 };
@@ -34,7 +35,6 @@ const RestaurantCard = () => {
 const Body = () => {
   return (
     <div className="body">
-      <div className="search">Search</div>
       <div className="res-container">
         <RestaurantCard/>
       </div>

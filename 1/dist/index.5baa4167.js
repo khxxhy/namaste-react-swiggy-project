@@ -2983,31 +2983,38 @@ const Header = ()=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Home"
+                            children: "Search"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 12,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About Us"
+                            children: "Home"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 13,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Contact Us"
+                            children: "About Us"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 14,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Cart"
+                            children: "Contact Us"
                         }, void 0, false, {
                             fileName: "app.js",
                             lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "app.js",
+                            lineNumber: 16,
                             columnNumber: 11
                         }, undefined)
                     ]
@@ -3039,20 +3046,20 @@ const RestaurantCard = ()=>{
                 src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ajwonvkychxzkbvyq8dv"
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Kishori"
+                children: "Kishoriiiiiiiiiiiiiiii"
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 29,
+                lineNumber: 30,
                 columnNumber: 5
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 3
     }, undefined);
 };
@@ -3060,31 +3067,21 @@ _c1 = RestaurantCard;
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "body",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search",
-                children: "Search"
-            }, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "res-container",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 37,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "res-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
-                    fileName: "app.js",
-                    lineNumber: 39,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 38,
-                columnNumber: 7
+                lineNumber: 39,
+                columnNumber: 9
             }, undefined)
-        ]
-    }, void 0, true, {
+        }, void 0, false, {
+            fileName: "app.js",
+            lineNumber: 38,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 5
     }, undefined);
 };
