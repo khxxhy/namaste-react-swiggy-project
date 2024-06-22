@@ -21,14 +21,22 @@ const Header = () => {
 };
 
 const RestaurantCard = () => {
-  return ( 
-  <div className="res-card">
-    <img className="res-logo" 
-      alt="res-logo"
-      src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ajwonvkychxzkbvyq8dv">
-    </img>
-    <h3>Kishoriiiiiiiiiiiiiiii</h3>
-  </div>
+  return (
+    <div className="res-big-card">
+      <div className="res-card">
+        <img
+          className="res-logo"
+          alt="res-logo"
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ajwonvkychxzkbvyq8dv"
+        ></img>
+        <div className="res-info">
+          <h3>Kishori</h3>
+          <p>North Indian, South Indian</p>
+          <p>4.1 Rating</p>
+          <p>35 minutes</p>
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -36,7 +44,21 @@ const Body = () => {
   return (
     <div className="body">
       <div className="res-container">
-        <RestaurantCard/>
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
       </div>
     </div>
   );
