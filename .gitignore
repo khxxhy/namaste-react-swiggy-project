@@ -22,3 +22,8 @@ yarn-error.log*
 /dist
 .parcel-cache
 .mdb
+
+/node_modules
+dist/
+.parcel-cache/
+.mdb
