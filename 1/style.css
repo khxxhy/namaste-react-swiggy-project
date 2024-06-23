@@ -11,7 +11,10 @@ body {
 .header {
   width: 100%;
   height: 7vw;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
   display: flex;
   justify-content: space-between;
   background-color: #f7f7f7;
@@ -37,7 +40,11 @@ body {
 }
 .res-card {
   height: 20vw;
+<<<<<<< HEAD
   margin: 2.5vw;
+=======
+  margin: 2vw;
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
   width: 15vw;
   border-radius: 5%;
   background-color: rgb(254, 255, 245);

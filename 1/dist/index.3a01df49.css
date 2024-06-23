@@ -45,7 +45,11 @@ html, body {
   border-radius: 5%;
   width: 15vw;
   height: 20vw;
+<<<<<<< HEAD
   margin: 2.5vw;
+=======
+  margin: 2vw;
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
 }
 
 .res-big-card :hover {

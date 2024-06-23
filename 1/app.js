@@ -22,6 +22,7 @@ const Header = () => {
 };
 
 const RestaurantCard = (props) => {
+<<<<<<< HEAD
   const { resData } = props;
   const {
     cloudinaryImageId,
@@ -32,11 +33,15 @@ const RestaurantCard = (props) => {
     avgRating,
   } = resData?.info;
 
+=======
+  const {resName, cuisine} = props
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
   return (
     <div className="res-big-card">
       <div className="res-card">
         <img
           className="res-logo"
+<<<<<<< HEAD
           src={
             "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
             resData.info.cloudinaryImageId
@@ -49,12 +54,23 @@ const RestaurantCard = (props) => {
           <p>{costForTwo} FOR TWO </p>
           <p>{deliveryTime}minutes</p>
           <p>{avgRating}stars</p>
+=======
+          alt="res-logo"
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ajwonvkychxzkbvyq8dv"
+        ></img>
+        <div className="res-info">
+          <h3>{props.resName}</h3>
+          <p>{props.cuisine}</p>
+          <p>4.1 Rating</p>
+          <p>35 minutes</p>
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
         </div>
       </div>
     </div>
   );
 };
 
+<<<<<<< HEAD
 const resList = [
   {
     type: "restaurants",
@@ -1591,13 +1607,20 @@ const resList = [
   },
 ];
 
+=======
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
 const Body = () => {
   return (
     <div className="body">
       <div className="res-container">
+<<<<<<< HEAD
         {resList.map((restaurant) => (
           <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         ))}
+=======
+        <RestaurantCard  resName="Kishori" cuisine="North Indian, South Indian"/>
+        <RestaurantCard resName="Sneh" cuisine="Indian"/>
+>>>>>>> 2d13cec97941212c0766f634b856c8a101241d6e
       </div>
     </div>
   );
